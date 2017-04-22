@@ -16,7 +16,16 @@ Insperdex={"Pikachu":{"poder":20,"vida_inicial":100,"vida":100,"defesa":7,"xpatu
 		   "Geodude":{"poder":20,"vida_inicial":70,"vida":70,"defesa":6,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
 		   "Onix":{"poder":15,"vida_inicial":80,"vida":80,"defesa":9,"xpatual":0,"xpevol":0,"xp2":25,"proxevol":""},
 		   "Horsea":{"poder":15,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
-		   "Zubat":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""}}
+		   "Zubat":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+		   "Caterpie":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+		   "Weedle":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+		   "Pidgey":{"poder":20,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+		   "Ratata":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+		   "Ekans":{"poder":15,"vida_inicial":65,"vida":65,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+	       "Spearow":{"poder":25,"vida_inicial":55,"vida":55,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},	
+	       "Nidoran":{"poder":20,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":20,"proxevol":""},
+		   "Vulpix":{"poder":15,"vida_inicial":60,"vida":60,"defesa":7,"xpatual":0,"xpevol":0,"xp2":20,"proxevol":""},
+		   "Oddish":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""}}
 		   
 Computador=[]
 
@@ -90,8 +99,8 @@ while True:
 		
 #COMANDO INICIAL PASSEAR/DORMIR/COMPUTADOR
 while True:
-	#x=random.choice(list(Insperdex.keys()))
-	x="Zubat"
+	x=random.choice(list(Insperdex.keys()))
+	#x="Zubat"
 	y=random.choice(list(probbilidadefuga1))
 	Insperdex[x]["vida"] = Insperdex[x]["vida_inicial"]
 	a = input("Você deseja passear, dormir, ver seu computador ou restaurar a vida do seu Inspermon?")
@@ -112,12 +121,12 @@ while True:
 		time.sleep(0.5)
 		print("A vida do seu Inspermon foi restaurada!")
 		print("Seu Inspermon está com {} de vida".format(Insperdex[usuario]["vida"]))
-
 	if a == "passear":
 		print("Passeando...")
 		time.sleep(1)
 		print("Aaah...Você encontrou um {} selvagem.".format(x))
 		Computador.append(x)
+	
 
 				
 	#INICIO BATALHA	
@@ -145,6 +154,7 @@ while True:
 			
 				if y >= 5:
 					print("Fuga mal sucedida, VOCÊ TERÁ que batalhar!")
+					c="atacar"
 				
 			if c == "atacar":
 				while Insperdex[x]["vida"]>0 and Insperdex[usuario]["vida"]>0:
@@ -185,6 +195,5 @@ while True:
 → FUNCIONALIDADE 1: FEITA
 → FUNCIONALIDADE 2: FEITA
 → FUNCIONALIDADE 3: FEITA
-→ FUNCIONALIDADE 4:	Evolução
-→ FUNCIONALIDADE 5: Salvar jogo
-→ Corrigir erro pós 3a evolução"""
+→ FUNCIONALIDADE 4:	FEITA
+→ FUNCIONALIDADE 5: Salvar jogo"""
