@@ -141,8 +141,6 @@ while True:
 	if a == "computador":
 		print("Sua Insperdex possuí: {}" .format(Computador))
 	if a =="restaurar":
-		print(usuario)
-		print(Insperdex[usuario]["vida_inicial"])
 		Insperdex[usuario]["vida"] = Insperdex[usuario]["vida_inicial"]
 		print(".")
 		time.sleep(0.5)
@@ -163,10 +161,10 @@ while True:
 	#INICIO BATALHA	
 		b= input("Deseja batalhar ou fugir?")
 		if b =="fugir":
-			if y < 5:
+			if y < 7:
 				print("Você fugiu da batalha com sucesso")
 					
-			if y >= 5:
+			if y >= 10:
 				print("Fuga mal sucedida!")
 				b="batalhar"
 				
@@ -180,10 +178,10 @@ while True:
 			print("defesa = {}".format(Insperdex[x]["defesa"]))
 			c= input("Voce deseja atacar ou fugir?")
 			if c == "fugir":
-				if y < 5:
+				if y < 7:
 					print("Você fugiu da batalha com sucesso")
 			
-				if y >= 5:
+				if y >= 7:
 					print("Fuga mal sucedida, VOCÊ TERÁ que batalhar!")
 					c="atacar"
 				
