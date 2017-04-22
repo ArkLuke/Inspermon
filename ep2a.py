@@ -1,22 +1,22 @@
 import time
 import random
 Insperdex=dict()
-Insperdex={"Pikachu":{"poder":20,"vida":100,"defesa":7,"xpatual":0,"xpevolucao":1,"xp2":25},	
-		   "Bulbasaur":{"poder":25,"vida":100,"defesa":8,"xpatual":0,"xpevolucao":1,"xp2":20},
-		   "Squirtle":{"poder":25,"vida":100,"defesa":8,"xpatual":0,"xpevolucao":1,"xp2":20},
-		   "Charmander":{"poder":25,"vida":100,"defesa":8,"xpatual":0,"xpevolucao":1,"xp2":20},
-		   "Ivysaur":{"poder":30,"vida":110,"defesa":9,"xpatual":0,"xpevolucao":1,"xp2":20},
-		   "Wartortle":{"poder":30,"vida":110,"defesa":9,"xpatual":0,"xpevolucao":1,"xp2":20},
-		   "Charmeleon":{"poder":30,"vida":110,"defesa":9,"xpatual":0,"xpevolucao":1,"xp2":20},
-		   "Venusaur":{"poder":35,"vida":120,"defesa":10,"xpatual":0,"xpevolucao":1,"xp2":30},
-		   "Blastoise":{"poder":35,"vida":120,"defesa":10,"xpatual":0,"xpevolucao":1,"xp2":30},
-		   "Charizard":{"poder":35,"vida":120,"defesa":10,"xpatual":0,"xpevolucao":1,"xp2":30},
-		   "Abra":{"poder":20,"vida":80,"defesa":5,"xpatual":0,"xpevolucao":1,"xp2":15},
-		   "Tentacool":{"poder":15,"vida":60,"defesa":5,"xpatual":0,"xpevolucao":1,"xp2":10},
-		   "Geodude":{"poder":20,"vida":70,"defesa":6,"xpatual":0,"xpevolucao":1,"xp2":15},
-		   "Onix":{"poder":15,"vida":80,"defesa":9,"xpatual":0,"xpevolucao":1,"xp2":25},
-		   "Horsea":{"poder":15,"vida":60,"defesa":5,"xpatual":0,"xpevolucao":1,"xp2":15},
-		   "Zubat":{"poder":15,"vida":50,"defesa":5,"xpatual":0,"xpevolucao":1,"xp2":10}}
+Insperdex={"Pikachu":{"poder":20,"vida":100,"defesa":7,"xpatual":0,"xpevol":0,"xp2":25,"proxevol":""},	
+		   "Bulbasaur":{"poder":25,"vida":100,"defesa":8,"xpatual":0,"xpevol":1,"xp2":20,"proxevol":"Ivysaur"},
+		   "Squirtle":{"poder":25,"vida":100,"defesa":8,"xpatual":0,"xpevol":1,"xp2":20,"proxevol":"Wartortle"},
+		   "Charmander":{"poder":25,"vida":100,"defesa":8,"xpatual":0,"xpevol":1,"xp2":20,"proxevol":"Charmeleon"},
+		   "Ivysaur":{"poder":30,"vida":110,"defesa":9,"xpatual":0,"xpevol":1,"xp2":20,"proxevol":"Venusaur"},
+		   "Wartortle":{"poder":30,"vida":110,"defesa":9,"xpatual":0,"xpevol":1,"xp2":20,"proxevol":"Blastoise"},
+		   "Charmeleon":{"poder":30,"vida":110,"defesa":9,"xpatual":0,"xpevol":1,"xp2":20,"proxevol":"Charizard"},
+		   "Venusaur":{"poder":35,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+		   "Blastoise":{"poder":35,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+		   "Charizard":{"poder":35,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+		   "Abra":{"poder":20,"vida":80,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+		   "Tentacool":{"poder":15,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+		   "Geodude":{"poder":20,"vida":70,"defesa":6,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+		   "Onix":{"poder":15,"vida":80,"defesa":9,"xpatual":0,"xpevol":0,"xp2":25,"proxevol":""},
+		   "Horsea":{"poder":15,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+		   "Zubat":{"poder":15,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""}}
 		   
 Computador=[]
 
@@ -45,10 +45,6 @@ def ataca(atacante,defensor):
 			Insperdex[defensor]["vida"]=Insperdex[defensor]["vida"]-((ataque-defesa))
 			if Insperdex[defensor]["vida"] < 0:
 				Insperdex[defensor]["vida"] = 0	
-
-def evolve(inspermon):
-	if 
-
 
 
 #MAIN CODE		   
