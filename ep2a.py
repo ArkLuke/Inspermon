@@ -50,8 +50,19 @@ def ataca(atacante,defensor):
 def evolucao(inspermon):
 	if Insperdex[inspermon]["xpevol"] > 0 :
 		if Insperdex[inspermon]["xpatual"] >= Insperdex[inspermon]["xpevol"]:
-			print("Seu pokemon evoluiu para " + Insperdex[inspermon]["proxevol"])
+			time.sleep(0.5)
+			print("O que está acontecendo?")
+			for i in range(3):
+				time.sleep(0.5)
+				print("?")
+			print("Seu inspermon está evoluindo!!!")
+			for i in range(5):	
+				time.sleep(0.5)
+				print(".")
+				
+			print("Parabéns!!! Seu "+inspermon+" acaba de evoluir para " + Insperdex[inspermon]["proxevol"])
 			return (Insperdex[inspermon]["proxevol"])
+
 
 #MAIN CODE		   
 print("Bem vindo ao Inspermon")
@@ -151,9 +162,11 @@ while True:
 						print("XP ganho = {}".format(Insperdex[x]["xp2"]))
 						Insperdex[usuario]["xpatual"] += Insperdex[x]["xp2"]
 						print("Seu Inspermon agora tem {} de experiência" .format(Insperdex[usuario]["xpatual"]))
-						usuario = evolucao(usuario)
+						if Insperdex[usuario]["xpevol"] > 0:
+							usuario = evolucao(usuario)
+						time.sleep(2)
 
-					if Insperdex[usuario]["vida"]<=0:
+					elif Insperdex[usuario]["vida"]<=0:
 						print("Voce perdeu a batalha")
 						time.sleep(1)
 						print("Retornando ao InsperCenter para recuperar seu Inspermon...")
@@ -173,4 +186,5 @@ while True:
 → FUNCIONALIDADE 2: FEITA
 → FUNCIONALIDADE 3: FEITA
 → FUNCIONALIDADE 4:	Evolução
-→ FUNCIONALIDADE 5: Salvar jogo"""
+→ FUNCIONALIDADE 5: Salvar jogo
+→ Corrigir erro pós 3a evolução"""
