@@ -3,12 +3,12 @@ import random
 import json
 Insperdex=dict()
 Insperdex={"Pikachu":{"poder":20,"vida_inicial":100,"vida":100,"defesa":7,"xpatual":0,"xpevol":0,"xp2":25,"proxevol":""},	
-		   "Bulbasaur":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":1,"xp2":20,"proxevol":"Ivysaur"},
-		   "Squirtle":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":1,"xp2":20,"proxevol":"Wartortle"},
-		   "Charmander":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":1,"xp2":20,"proxevol":"Charmeleon"},
-		   "Ivysaur":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":1,"xp2":20,"proxevol":"Venusaur"},
-		   "Wartortle":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":1,"xp2":20,"proxevol":"Blastoise"},
-		   "Charmeleon":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":1,"xp2":20,"proxevol":"Charizard"},
+		   "Bulbasaur":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Ivysaur"},
+		   "Squirtle":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Wartortle"},
+		   "Charmander":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Charmeleon"},
+		   "Ivysaur":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Venusaur"},
+		   "Wartortle":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Blastoise"},
+		   "Charmeleon":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Charizard"},
 		   "Venusaur":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
 		   "Blastoise":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
 		   "Charizard":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
@@ -72,6 +72,7 @@ def evolucao(inspermon):
 				
 			print("Parabéns!!! Seu "+inspermon+" acaba de evoluir para " + Insperdex[inspermon]["proxevol"])
 			return (Insperdex[inspermon]["proxevol"])
+	return inspermon
 
 
 #MAIN CODE		   
@@ -80,9 +81,16 @@ time.sleep(0.5)
 
 #CARREGAR JOGO
 while True:
-	jogo = str(input("Deseja começar um Novo Jogo(1) ou carregar um Jogo Salvo(2) ?"))
+	jogo = str(input("Deseja começar um Novo Jogo(1) ou carregar um Jogo Salvo(2)?"))
 	if jogo == "1" or jogo == "novo":
-		#ESCOLHA POKEMON s(NOVO JOGO)
+		data = {
+				"insperdex": 
+						{"inspermons": []},
+				"seuinspermon":
+						{"nome": "", "vida": 0, "xpatual": 0}
+				}
+			
+		#ESCOLHA POKEMON (NOVO JOGO)
 		while True:
 			time.sleep(1.5)
 			usuario=str(input("Escolha seu Inspermon: Bulbasaur(1), Charmander(2), Squirtle(3)"))
@@ -104,8 +112,8 @@ while True:
 		with open("savegame.json", "r") as savegame:
 			data = json.load(savegame)
 		Computador = data["insperdex"]["inspermons"]
-		usuario = data["inspermon"]["nome"]
-		Insperdex[usuario]["xpatual"] = data["inspermon"]["xpatual"]
+		usuario = data["seuinspermon"]["nome"]
+		Insperdex[usuario]["xpatual"] = data["seuinspermon"]["xpatual"]
 		break
 
 print("Carregando o jogo...") 
@@ -121,11 +129,19 @@ while True:
 	if a == "dormir":
 		print("Você encerrou o jogo, salvando...")
 		time.sleep(1)
+		data["insperdex"]["inspermons"] = Computador
+		data["seuinspermon"]["nome"] = usuario
+		data["seuinspermon"]["xpatual"] = Insperdex[usuario]["xpatual"]
+		data["seuinspermon"]["vida"] = Insperdex[usuario]["vida"]
+		with open('savegame.json', 'w') as savegame:
+			json.dump(data, savegame)
 		print("Jogo salvo. Até a proxima!")
 		exit()
 	if a == "computador":
 		print(Computador)
 	if a =="restaurar":
+		print(usuario)
+		print(Insperdex[usuario]["vida_inicial"])
 		Insperdex[usuario]["vida"] = Insperdex[usuario]["vida_inicial"]
 		print(".")
 		time.sleep(0.5)
