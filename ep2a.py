@@ -114,11 +114,12 @@ while True:
 		Computador = data["insperdex"]["inspermons"]
 		usuario = data["seuinspermon"]["nome"]
 		Insperdex[usuario]["xpatual"] = data["seuinspermon"]["xpatual"]
+		time.sleep(1)
+		print("Seu Inspermon é o {} e ele está com {}/{} de vida e {} de XP!".format(usuario,Insperdex[usuario]["vida"],Insperdex[usuario]["vida_inicial"],Insperdex[usuario]["xpatual"]))
 		break
 
 print("Carregando o jogo...") 
 time.sleep(1.5)
-
 		
 #COMANDO INICIAL PASSEAR/DORMIR/COMPUTADOR
 while True:
@@ -138,7 +139,7 @@ while True:
 		print("Jogo salvo. Até a proxima!")
 		exit()
 	if a == "computador":
-		print(Computador)
+		print("Sua Insperdex possuí: {}" .format(Computador))
 	if a =="restaurar":
 		print(usuario)
 		print(Insperdex[usuario]["vida_inicial"])
