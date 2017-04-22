@@ -1,5 +1,6 @@
 import time
 import random
+import json
 Insperdex=dict()
 Insperdex={"Pikachu":{"poder":20,"vida_inicial":100,"vida":100,"defesa":7,"xpatual":0,"xpevol":0,"xp2":25,"proxevol":""},	
 		   "Bulbasaur":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":1,"xp2":20,"proxevol":"Ivysaur"},
@@ -29,7 +30,7 @@ Insperdex={"Pikachu":{"poder":20,"vida_inicial":100,"vida":100,"defesa":7,"xpatu
 		   
 Computador=[]
 
-probbilidadefuga1 = [0,1,2,3,4,5,6,7,8,9,10]
+probabilidadefuga1 = [0,1,2,3,4,5,6,7,8,9,10]
 
 #FUNÇÃO RETORNA UM NÚMERO ALEATÓRIO NUMA DISTRIBUIÇÃO NORMAL CENTRADA EM NUM
 def distnormal(num):
@@ -77,31 +78,44 @@ def evolucao(inspermon):
 print("Bem vindo ao Inspermon")
 time.sleep(0.5)
 
+#CARREGAR JOGO
+while True:
+	jogo = str(input("Deseja começar um Novo Jogo(1) ou carregar um Jogo Salvo(2) ?"))
+	if jogo == "1" or jogo == "novo":
+		#ESCOLHA POKEMON s(NOVO JOGO)
+		while True:
+			time.sleep(1.5)
+			usuario=str(input("Escolha seu Inspermon: Bulbasaur(1), Charmander(2), Squirtle(3)"))
+			if usuario == "1":
+				usuario = "Bulbasaur"
+			if usuario == "2":
+				usuario = "Charmander"
+			if usuario == "3":
+				usuario = "Squirtle"
+			if usuario == "Charmander" or usuario == "Bulbasaur" or usuario == "Squirtle":
+				Computador.append(usuario)
+				time.sleep(1)
+				print("Você escolheu o {}".format(usuario))
+				break
+			else:
+				print("Escolha um Inspermon válido")
+		break
+	if jogo == "2" or jogo == "salvo":
+		with open("savegame.json", "r") as savegame:
+			data = json.load(savegame)
+		Computador = data["insperdex"]["inspermons"]
+		usuario = data["inspermon"]["nome"]
+		Insperdex[usuario]["xpatual"] = data["inspermon"]["xpatual"]
+		break
+
 print("Carregando o jogo...") 
 time.sleep(1.5)
 
-#ESCOLHA DE INSPERMON
-while True:
-	usuario=str(input("Escolha seu Inspermon: Bulbasaur(1), Charmander(2), Squirtle(3):"))
-	if usuario == "1":
-		usuario = "Bulbasaur"
-	if usuario == "2":
-		usuario = "Charmander"
-	if usuario == "3":
-		usuario = "Squirtle"
-	if usuario == "Charmander" or usuario == "Bulbasaur" or usuario == "Squirtle":
-		Computador.append(usuario)
-		print("Você escolheu o {}".format(usuario))
-		break
-	else:
-		print("Escolha um Inspermon válido")
-		
 		
 #COMANDO INICIAL PASSEAR/DORMIR/COMPUTADOR
 while True:
 	x=random.choice(list(Insperdex.keys()))
-	#x="Zubat"
-	y=random.choice(list(probbilidadefuga1))
+	y=random.choice(list(probabilidadefuga1))
 	Insperdex[x]["vida"] = Insperdex[x]["vida_inicial"]
 	a = input("Você deseja passear, dormir, ver seu computador ou restaurar a vida do seu Inspermon?")
 	if a == "dormir":
@@ -189,11 +203,6 @@ while True:
 						print(".")
 						time.sleep(0.5)
 						print("A vida do seu Inspermon foi restaurada!")
+						time.sleep(2)
+						break
 
-
-"""COISAS QUE FALTAM:
-→ FUNCIONALIDADE 1: FEITA
-→ FUNCIONALIDADE 2: FEITA
-→ FUNCIONALIDADE 3: FEITA
-→ FUNCIONALIDADE 4:	FEITA
-→ FUNCIONALIDADE 5: Salvar jogo"""
