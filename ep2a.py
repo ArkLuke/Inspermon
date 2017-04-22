@@ -1,22 +1,22 @@
 import time
 import random
 Insperdex=dict()
-Insperdex={"Pikachu":{"poder":20,"vida":100,"defesa":7,"xpatual":0,"xpevol":0,"xp2":25,"proxevol":""},	
-		   "Bulbasaur":{"poder":25,"vida":100,"defesa":8,"xpatual":0,"xpevol":1,"xp2":20,"proxevol":"Ivysaur"},
-		   "Squirtle":{"poder":25,"vida":100,"defesa":8,"xpatual":0,"xpevol":1,"xp2":20,"proxevol":"Wartortle"},
-		   "Charmander":{"poder":25,"vida":100,"defesa":8,"xpatual":0,"xpevol":1,"xp2":20,"proxevol":"Charmeleon"},
-		   "Ivysaur":{"poder":30,"vida":110,"defesa":9,"xpatual":0,"xpevol":1,"xp2":20,"proxevol":"Venusaur"},
-		   "Wartortle":{"poder":30,"vida":110,"defesa":9,"xpatual":0,"xpevol":1,"xp2":20,"proxevol":"Blastoise"},
-		   "Charmeleon":{"poder":30,"vida":110,"defesa":9,"xpatual":0,"xpevol":1,"xp2":20,"proxevol":"Charizard"},
-		   "Venusaur":{"poder":35,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
-		   "Blastoise":{"poder":35,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
-		   "Charizard":{"poder":35,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
-		   "Abra":{"poder":20,"vida":80,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
-		   "Tentacool":{"poder":15,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
-		   "Geodude":{"poder":20,"vida":70,"defesa":6,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
-		   "Onix":{"poder":15,"vida":80,"defesa":9,"xpatual":0,"xpevol":0,"xp2":25,"proxevol":""},
-		   "Horsea":{"poder":15,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
-		   "Zubat":{"poder":15,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""}}
+Insperdex={"Pikachu":{"poder":20,"vida_inicial":100,"vida":100,"defesa":7,"xpatual":0,"xpevol":0,"xp2":25,"proxevol":""},	
+		   "Bulbasaur":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":1,"xp2":20,"proxevol":"Ivysaur"},
+		   "Squirtle":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":1,"xp2":20,"proxevol":"Wartortle"},
+		   "Charmander":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":1,"xp2":20,"proxevol":"Charmeleon"},
+		   "Ivysaur":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":1,"xp2":20,"proxevol":"Venusaur"},
+		   "Wartortle":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":1,"xp2":20,"proxevol":"Blastoise"},
+		   "Charmeleon":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":1,"xp2":20,"proxevol":"Charizard"},
+		   "Venusaur":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+		   "Blastoise":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+		   "Charizard":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+		   "Abra":{"poder":20,"vida_inicial":80,"vida":80,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+		   "Tentacool":{"poder":15,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+		   "Geodude":{"poder":20,"vida_inicial":70,"vida":70,"defesa":6,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+		   "Onix":{"poder":15,"vida_inicial":80,"vida":80,"defesa":9,"xpatual":0,"xpevol":0,"xp2":25,"proxevol":""},
+		   "Horsea":{"poder":15,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+		   "Zubat":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""}}
 		   
 Computador=[]
 
@@ -51,7 +51,7 @@ def evolucao(inspermon):
 	if Insperdex[inspermon]["xpevol"] > 0 :
 		if Insperdex[inspermon]["xpatual"] >= Insperdex[inspermon]["xpevol"]:
 			print("Seu pokemon evoluiu para " + Insperdex[inspermon]["proxevol"])
-			return Insperdex[inspermon]["proxevol"]
+			return (Insperdex[inspermon]["proxevol"])
 
 #MAIN CODE		   
 print("Bem vindo ao Inspermon")
@@ -79,8 +79,10 @@ while True:
 		
 #COMANDO INICIAL PASSEAR/DORMIR/COMPUTADOR
 while True:
-	x=random.choice(list(Insperdex.keys()))
+	#x=random.choice(list(Insperdex.keys()))
+	x="Zubat"
 	y=random.choice(list(probbilidadefuga1))
+	Insperdex[x]["vida"] = Insperdex[x]["vida_inicial"]
 	a = input("Você deseja passear, dormir, ver seu computador ou restaurar a vida do seu Inspermon?")
 	if a == "dormir":
 		print("Você encerrou o jogo, salvando...")
@@ -90,7 +92,15 @@ while True:
 	if a == "computador":
 		print(Computador)
 	if a =="restaurar":
+		Insperdex[usuario]["vida"] = Insperdex[usuario]["vida_inicial"]
+		print(".")
+		time.sleep(0.5)
+		print(".")
+		time.sleep(0.5)
+		print(".")
+		time.sleep(0.5)
 		print("A vida do seu Inspermon foi restaurada!")
+		print("Seu Inspermon está com {} de vida".format(Insperdex[usuario]["vida"]))
 
 	if a == "passear":
 		print("Passeando...")
@@ -109,6 +119,7 @@ while True:
 				print("Fuga mal sucedida!")
 				b="batalhar"
 				
+		
 		if b == "batalhar":
 			print("Iniciando batalha...")
 			time.sleep(1)
@@ -124,7 +135,7 @@ while True:
 				if y >= 5:
 					print("Fuga mal sucedida, VOCÊ TERÁ que batalhar!")
 				
-			elif c == "atacar":
+			if c == "atacar":
 				while Insperdex[x]["vida"]>0 and Insperdex[usuario]["vida"]>0:
 						
 					ataca(usuario,x)
@@ -133,18 +144,27 @@ while True:
 					print("Vida do seu Inspermon:{}".format(Insperdex[usuario]["vida"]))
 					print("vida do oponente:{}".format(Insperdex[x]["vida"]))
 					time.sleep(1)
+					
 					if Insperdex[x]["vida"]<=0:
 						print("Parabens!Voce ganhou a batalha")
 						print("Vida do seu Inspermon = {}".format(Insperdex[usuario]["vida"]))
-						print("XP ganho = {}".format(Insperdex[usuario]["xpatual"]+Insperdex[x]["xp2"]))
+						print("XP ganho = {}".format(Insperdex[x]["xp2"]))
+						Insperdex[usuario]["xpatual"] += Insperdex[x]["xp2"]
+						print("Seu Inspermon agora tem {} de experiência" .format(Insperdex[usuario]["xpatual"]))
 						usuario = evolucao(usuario)
-						
-					Insperdex[usuario]["vida"]=Insperdex[usuario]["vida"]-(Insperdex[x]["poder"]-Insperdex[usuario]["defesa"])
+
 					if Insperdex[usuario]["vida"]<=0:
 						print("Voce perdeu a batalha")
 						time.sleep(1)
 						print("Retornando ao InsperCenter para recuperar seu Inspermon...")
+						Insperdex[usuario]["vida"] = Insperdex[usuario]["vida_inicial"]
 						time.sleep(1)
+						print(".")
+						time.sleep(0.5)
+						print(".")
+						time.sleep(0.5)
+						print(".")
+						time.sleep(0.5)
 						print("A vida do seu Inspermon foi restaurada!")
 
 
