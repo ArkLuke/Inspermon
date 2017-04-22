@@ -46,6 +46,12 @@ def ataca(atacante,defensor):
 			if Insperdex[defensor]["vida"] < 0:
 				Insperdex[defensor]["vida"] = 0	
 
+#FUNÇÂO DE EVOLUÇÂO
+def evolucao(inspermon):
+	if Insperdex[inspermon]["xpevol"] > 0 :
+		if Insperdex[inspermon]["xpatual"] >= Insperdex[inspermon]["xpevol"]:
+			print("Seu pokemon evoluiu para " + Insperdex[inspermon]["proxevol"])
+			return Insperdex[inspermon]["proxevol"]
 
 #MAIN CODE		   
 print("Bem vindo ao Inspermon")
@@ -75,15 +81,18 @@ while True:
 while True:
 	x=random.choice(list(Insperdex.keys()))
 	y=random.choice(list(probbilidadefuga1))
-	a = input("Você deseja passear, dormir ou ver seu computador?")
+	a = input("Você deseja passear, dormir, ver seu computador ou restaurar a vida do seu Inspermon?")
 	if a == "dormir":
 		print("Você encerrou o jogo, salvando...")
 		time.sleep(1)
 		print("Jogo salvo. Até a proxima!")
 		exit()
-	elif a == "computador":
+	if a == "computador":
 		print(Computador)
-	elif a == "passear":
+	if a =="restaurar":
+		print("A vida do seu Inspermon foi restaurada!")
+
+	if a == "passear":
 		print("Passeando...")
 		time.sleep(1)
 		print("Aaah...Você encontrou um {} selvagem.".format(x))
@@ -127,7 +136,8 @@ while True:
 					if Insperdex[x]["vida"]<=0:
 						print("Parabens!Voce ganhou a batalha")
 						print("Vida do seu Inspermon = {}".format(Insperdex[usuario]["vida"]))
-						print("XP ganho = {}".format(Insperdex[usuario]["xp1"]+Insperdex[x]["xp2"]))
+						print("XP ganho = {}".format(Insperdex[usuario]["xpatual"]+Insperdex[x]["xp2"]))
+						usuario = evolucao(usuario)
 						
 					Insperdex[usuario]["vida"]=Insperdex[usuario]["vida"]-(Insperdex[x]["poder"]-Insperdex[usuario]["defesa"])
 					if Insperdex[usuario]["vida"]<=0:
