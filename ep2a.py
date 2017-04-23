@@ -1,6 +1,7 @@
 import time
 import random
 import json
+import math
 Insperdex=dict()
 Insperdex={"Pikachu":{"poder":20,"vida_inicial":100,"vida":100,"defesa":7,"xpatual":0,"xpevol":0,"xp2":25,"proxevol":""},	
 		   "Bulbasaur":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Ivysaur"},
@@ -28,11 +29,17 @@ Insperdex={"Pikachu":{"poder":20,"vida_inicial":100,"vida":100,"defesa":7,"xpatu
 		   "Vulpix":{"poder":15,"vida_inicial":60,"vida":60,"defesa":7,"xpatual":0,"xpevol":0,"xp2":20,"proxevol":""},
 		   "Oddish":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""}}
 		   
-Computador=[]
+lista_de_vidas = []
+for i in Insperdex:
+	lista_de_vidas.append(int(Insperdex[i]["vida_inicial"]))
+
+Computador = []
+Capturados = []
+
 
 probabilidadefuga1 = [0,1,2,3,4,5,6,7,8,9,10]
 
-#FUNÇÃO RETORNA UM NÚMERO ALEATÓRIO NUMA DISTRIBUIÇÃO NORMAL CENTRADA EM NUM
+#FUNÇÃO RETORNA UM NÚMERO ALEATÓRIO NUMA DISTRIBUIÇÃO NORMAL CENTRADA EM NUM PARA SORTEAR FORÇA DE ATAQUE E DEFESA
 def distnormal(num):
 		lisnum=[1.5,
 				1.4,1.4,
@@ -74,6 +81,19 @@ def evolucao(inspermon):
 			return (Insperdex[inspermon]["proxevol"])
 	return inspermon
 
+#FUNÇÃO DE CAPTURA
+def probabilidade(vida):
+	vida_maior = max(lista_de_vidas)
+	vida_menor = min(lista_de_vidas)
+	Pa = 0.02   # Chance de captura do Inspemron com MAIS vida (Padrão : 0.02 = 2%) 
+	Pb = 0.8    # Chance de captura do Inspemron com MENOS vida (Padrão : 0.8 = 80%)
+	A = pow(pow(Pa,vida_maior)/pow(Pb,vida_menor),(1/(vida_maior-vida_menor))) 
+	B = -vida_maior/(math.log(Pa/A))
+	probabilidade = A * math.exp(-vida/B)
+	variavel = random.random()
+	return variavel < probabilidade
+
+
 
 #MAIN CODE		   
 print("Bem vindo ao Inspermon")
@@ -112,6 +132,7 @@ while True:
 		with open("savegame.json", "r") as savegame:
 			data = json.load(savegame)
 		Computador = data["insperdex"]["inspermons"]
+		Capturados = data["insperdex"]["capturados"]
 		usuario = data["seuinspermon"]["nome"]
 		Insperdex[usuario]["xpatual"] = data["seuinspermon"]["xpatual"]
 		time.sleep(1)
@@ -130,6 +151,7 @@ while True:
 	if a == "dormir":
 		print("Você encerrou o jogo, salvando...")
 		time.sleep(1)
+		data["insperdex"]["capturados"] = Capturados
 		data["insperdex"]["inspermons"] = Computador
 		data["seuinspermon"]["nome"] = usuario
 		data["seuinspermon"]["xpatual"] = Insperdex[usuario]["xpatual"]
@@ -139,7 +161,18 @@ while True:
 		print("Jogo salvo. Até a proxima!")
 		exit()
 	if a == "computador":
-		print("Sua Insperdex possuí: {}" .format(Computador))
+		time.sleep(1)
+		print("Acessando seus dados...")
+		time.sleep(2)
+		d = input("Você está no seu computador, deseja ver os seus Inspermons capturados(1) ou sua Insperdex(2)?")
+		if d =="insperdex" or d =="2":
+			time.sleep(1)
+			print("Sua Insperdex possuí: {}" .format(Computador))
+			time.sleep(2)
+		if d =="capturados" or d =="1":
+			time.sleep(1)
+			print("Você já capturou: {}".format(Capturados))
+			time.sleep(2)
 	if a =="restaurar":
 		Insperdex[usuario]["vida"] = Insperdex[usuario]["vida_inicial"]
 		print(".")
@@ -176,15 +209,28 @@ while True:
 			print("poder = {}".format(Insperdex[x]["poder"]))
 			print("vida = {}".format(Insperdex[x]["vida"]))
 			print("defesa = {}".format(Insperdex[x]["defesa"]))
-			c= input("Voce deseja atacar ou fugir?")
+			c= input("Voce deseja atacar, tentar capturar o Inspermon ou fugir?")
 			if c == "fugir":
 				if y < 7:
 					print("Você fugiu da batalha com sucesso")
 			
 				if y >= 7:
 					print("Fuga mal sucedida, VOCÊ TERÁ que batalhar!")
-					c="atacar"
-				
+					c="atacar"	
+
+			if c == "capturar":
+				if(True):
+					Capturados.append(x)
+					print(".")
+					time.sleep(1)
+					print(".")
+					time.sleep(1)
+					print(".")
+					time.sleep(1)
+					print("Parabéns, você capturou o {} com sucesso!".format(x))
+					time.sleep(1)
+
+
 			if c == "atacar":
 				while Insperdex[x]["vida"]>0 and Insperdex[usuario]["vida"]>0:
 						
