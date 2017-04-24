@@ -82,17 +82,19 @@ def evolucao(inspermon):
 	return inspermon
 
 #FUNÇÃO DE CAPTURA
-def probabilidade(vida):
+def tenta_capturar(inspermon):
+	vida = Insperdex[inspermon]["vida_inicial"]
 	vida_maior = max(lista_de_vidas)
 	vida_menor = min(lista_de_vidas)
 	Pa = 0.02   # Chance de captura do Inspemron com MAIS vida (Padrão : 0.02 = 2%) 
 	Pb = 0.8    # Chance de captura do Inspemron com MENOS vida (Padrão : 0.8 = 80%)
-	A = pow(pow(Pa,vida_maior)/pow(Pb,vida_menor),(1/(vida_maior-vida_menor))) 
-	B = -vida_maior/(math.log(Pa/A))
-	probabilidade = A * math.exp(-vida/B)
+	B = (vida_menor - vida_maior)/math.log(Pa/Pb)
+	#  print(B)
+	A = Pa/math.exp(-vida_maior/B)
+	#  print(A)
+	probabilidade = A*math.exp(-vida/B)
 	variavel = random.random()
-	return variavel < probabilidade
-
+	return  variavel < probabilidade
 
 
 #MAIN CODE		   
@@ -187,7 +189,8 @@ while True:
 		print("Passeando...")
 		time.sleep(1)
 		print("Aaah...Você encontrou um {} selvagem.".format(x))
-		Computador.append(x)
+		if x not in Computador:
+			Computador.append(x)
 	
 
 				
@@ -219,7 +222,33 @@ while True:
 					c="atacar"	
 
 			if c == "capturar":
-				if(True):
+				if(x in Capturados):
+					print("Você já capturou um Inspermon deste tipo antes!")
+					continue
+				else:
+					print("Você lançou uma InsperBola para tentar capturar o " + x + " selvagem ...")
+					time.sleep(1)
+					print(".")
+					time.sleep(1)
+					print(".")
+					time.sleep(1)
+					print(".")
+					if (tenta_capturar(x)):
+						Capturados.append(x)
+						time.sleep(1)
+						print("Parabéns, você capturou o {} com sucesso!".format(x))
+						time.sleep(1)
+						print("Agora o Inspermon capturado pode ser encontrado no seu computador")
+						time.sleep(1)
+
+					else:
+						print("Infelizmente o " + x + " selvagem resistiu à InsperBola e fugiu !")
+						time.sleep(1)
+
+
+
+
+				"""if(True):
 					Capturados.append(x)
 					print(".")
 					time.sleep(1)
@@ -228,7 +257,7 @@ while True:
 					print(".")
 					time.sleep(1)
 					print("Parabéns, você capturou o {} com sucesso!".format(x))
-					time.sleep(1)
+					time.sleep(1)"""
 
 
 			if c == "atacar":
