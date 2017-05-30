@@ -1,0 +1,1298 @@
+************* Module ep2a
+W: 42, 0: Cannot decode using encoding "ascii", unexpected byte at position 4 (invalid-encoded-data)
+W: 57, 0: Cannot decode using encoding "ascii", unexpected byte at position 4 (invalid-encoded-data)
+W: 66, 0: Cannot decode using encoding "ascii", unexpected byte at position 4 (invalid-encoded-data)
+W: 71, 0: Cannot decode using encoding "ascii", unexpected byte at position 19 (invalid-encoded-data)
+W: 75, 0: Cannot decode using encoding "ascii", unexpected byte at position 27 (invalid-encoded-data)
+W: 80, 0: Cannot decode using encoding "ascii", unexpected byte at position 15 (invalid-encoded-data)
+W: 84, 0: Cannot decode using encoding "ascii", unexpected byte at position 4 (invalid-encoded-data)
+W: 89, 0: Cannot decode using encoding "ascii", unexpected byte at position 65 (invalid-encoded-data)
+W: 90, 0: Cannot decode using encoding "ascii", unexpected byte at position 66 (invalid-encoded-data)
+W:106, 0: Cannot decode using encoding "ascii", unexpected byte at position 30 (invalid-encoded-data)
+W:128, 0: Cannot decode using encoding "ascii", unexpected byte at position 14 (invalid-encoded-data)
+W:131, 0: Cannot decode using encoding "ascii", unexpected byte at position 33 (invalid-encoded-data)
+W:141, 0: Cannot decode using encoding "ascii", unexpected byte at position 23 (invalid-encoded-data)
+W:152, 0: Cannot decode using encoding "ascii", unexpected byte at position 15 (invalid-encoded-data)
+W:154, 0: Cannot decode using encoding "ascii", unexpected byte at position 12 (invalid-encoded-data)
+W:163, 0: Cannot decode using encoding "ascii", unexpected byte at position 23 (invalid-encoded-data)
+W:169, 0: Cannot decode using encoding "ascii", unexpected byte at position 16 (invalid-encoded-data)
+W:172, 0: Cannot decode using encoding "ascii", unexpected byte at position 29 (invalid-encoded-data)
+W:176, 0: Cannot decode using encoding "ascii", unexpected byte at position 13 (invalid-encoded-data)
+W:187, 0: Cannot decode using encoding "ascii", unexpected byte at position 26 (invalid-encoded-data)
+W:191, 0: Cannot decode using encoding "ascii", unexpected byte at position 19 (invalid-encoded-data)
+W:201, 0: Cannot decode using encoding "ascii", unexpected byte at position 14 (invalid-encoded-data)
+W:218, 0: Cannot decode using encoding "ascii", unexpected byte at position 15 (invalid-encoded-data)
+W:221, 0: Cannot decode using encoding "ascii", unexpected byte at position 34 (invalid-encoded-data)
+W:226, 0: Cannot decode using encoding "ascii", unexpected byte at position 15 (invalid-encoded-data)
+W:229, 0: Cannot decode using encoding "ascii", unexpected byte at position 15 (invalid-encoded-data)
+W:239, 0: Cannot decode using encoding "ascii", unexpected byte at position 18 (invalid-encoded-data)
+W:245, 0: Cannot decode using encoding "ascii", unexpected byte at position 56 (invalid-encoded-data)
+W:259, 0: Cannot decode using encoding "ascii", unexpected byte at position 17 (invalid-encoded-data)
+W:278, 0: Cannot decode using encoding "ascii", unexpected byte at position 49 (invalid-encoded-data)
+C:  5, 0: Exactly one space required around assignment
+Insperdex=dict()
+         ^ (bad-whitespace)
+C:  6, 0: Trailing whitespace (trailing-whitespace)
+C:  6, 0: Line too long (121/100) (line-too-long)
+C:  6, 0: Exactly one space required around assignment
+Insperdex={"Pikachu":{"poder":20,"vida_inicial":100,"vida":100,"defesa":7,"xpatual":0,"xpevol":0,"xp2":25,"proxevol":""},	
+         ^ (bad-whitespace)
+C:  6, 0: Exactly one space required after comma
+Insperdex={"Pikachu":{"poder":20,"vida_inicial":100,"vida":100,"defesa":7,"xpatual":0,"xpevol":0,"xp2":25,"proxevol":""},	
+                                ^ (bad-whitespace)
+C:  6, 0: Exactly one space required after comma
+Insperdex={"Pikachu":{"poder":20,"vida_inicial":100,"vida":100,"defesa":7,"xpatual":0,"xpevol":0,"xp2":25,"proxevol":""},	
+                                                   ^ (bad-whitespace)
+C:  6, 0: Exactly one space required after comma
+Insperdex={"Pikachu":{"poder":20,"vida_inicial":100,"vida":100,"defesa":7,"xpatual":0,"xpevol":0,"xp2":25,"proxevol":""},	
+                                                              ^ (bad-whitespace)
+C:  6, 0: Exactly one space required after comma
+Insperdex={"Pikachu":{"poder":20,"vida_inicial":100,"vida":100,"defesa":7,"xpatual":0,"xpevol":0,"xp2":25,"proxevol":""},	
+                                                                         ^ (bad-whitespace)
+C:  6, 0: Exactly one space required after comma
+Insperdex={"Pikachu":{"poder":20,"vida_inicial":100,"vida":100,"defesa":7,"xpatual":0,"xpevol":0,"xp2":25,"proxevol":""},	
+                                                                                     ^ (bad-whitespace)
+C:  6, 0: Exactly one space required after comma
+Insperdex={"Pikachu":{"poder":20,"vida_inicial":100,"vida":100,"defesa":7,"xpatual":0,"xpevol":0,"xp2":25,"proxevol":""},	
+                                                                                                ^ (bad-whitespace)
+C:  6, 0: Exactly one space required after comma
+Insperdex={"Pikachu":{"poder":20,"vida_inicial":100,"vida":100,"defesa":7,"xpatual":0,"xpevol":0,"xp2":25,"proxevol":""},	
+                                                                                                         ^ (bad-whitespace)
+C:  7, 0: Wrong continued indentation (add 6 spaces).
+		   "Bulbasaur":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Ivysaur"},
+     ^     | (bad-continuation)
+C:  7, 0: Line too long (125/100) (line-too-long)
+C:  7, 0: Exactly one space required after comma
+		   "Bulbasaur":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Ivysaur"},
+                            ^ (bad-whitespace)
+C:  7, 0: Exactly one space required after comma
+		   "Bulbasaur":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Ivysaur"},
+                                               ^ (bad-whitespace)
+C:  7, 0: Exactly one space required after comma
+		   "Bulbasaur":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Ivysaur"},
+                                                          ^ (bad-whitespace)
+C:  7, 0: Exactly one space required after comma
+		   "Bulbasaur":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Ivysaur"},
+                                                                     ^ (bad-whitespace)
+C:  7, 0: Exactly one space required after comma
+		   "Bulbasaur":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Ivysaur"},
+                                                                                 ^ (bad-whitespace)
+C:  7, 0: Exactly one space required after comma
+		   "Bulbasaur":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Ivysaur"},
+                                                                                             ^ (bad-whitespace)
+C:  7, 0: Exactly one space required after comma
+		   "Bulbasaur":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Ivysaur"},
+                                                                                                      ^ (bad-whitespace)
+C:  8, 0: Wrong continued indentation (add 6 spaces).
+		   "Squirtle":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Wartortle"},
+     ^     | (bad-continuation)
+C:  8, 0: Line too long (126/100) (line-too-long)
+C:  8, 0: Exactly one space required after comma
+		   "Squirtle":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Wartortle"},
+                           ^ (bad-whitespace)
+C:  8, 0: Exactly one space required after comma
+		   "Squirtle":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Wartortle"},
+                                              ^ (bad-whitespace)
+C:  8, 0: Exactly one space required after comma
+		   "Squirtle":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Wartortle"},
+                                                         ^ (bad-whitespace)
+C:  8, 0: Exactly one space required after comma
+		   "Squirtle":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Wartortle"},
+                                                                    ^ (bad-whitespace)
+C:  8, 0: Exactly one space required after comma
+		   "Squirtle":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Wartortle"},
+                                                                                ^ (bad-whitespace)
+C:  8, 0: Exactly one space required after comma
+		   "Squirtle":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Wartortle"},
+                                                                                            ^ (bad-whitespace)
+C:  8, 0: Exactly one space required after comma
+		   "Squirtle":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Wartortle"},
+                                                                                                     ^ (bad-whitespace)
+C:  9, 0: Wrong continued indentation (add 6 spaces).
+		   "Charmander":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Charmeleon"},
+     ^     | (bad-continuation)
+C:  9, 0: Line too long (129/100) (line-too-long)
+C:  9, 0: Exactly one space required after comma
+		   "Charmander":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Charmeleon"},
+                             ^ (bad-whitespace)
+C:  9, 0: Exactly one space required after comma
+		   "Charmander":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Charmeleon"},
+                                                ^ (bad-whitespace)
+C:  9, 0: Exactly one space required after comma
+		   "Charmander":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Charmeleon"},
+                                                           ^ (bad-whitespace)
+C:  9, 0: Exactly one space required after comma
+		   "Charmander":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Charmeleon"},
+                                                                      ^ (bad-whitespace)
+C:  9, 0: Exactly one space required after comma
+		   "Charmander":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Charmeleon"},
+                                                                                  ^ (bad-whitespace)
+C:  9, 0: Exactly one space required after comma
+		   "Charmander":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Charmeleon"},
+                                                                                              ^ (bad-whitespace)
+C:  9, 0: Exactly one space required after comma
+		   "Charmander":{"poder":25,"vida_inicial":100,"vida":100,"defesa":8,"xpatual":0,"xpevol":50,"xp2":20,"proxevol":"Charmeleon"},
+                                                                                                       ^ (bad-whitespace)
+C: 10, 0: Wrong continued indentation (add 6 spaces).
+		   "Ivysaur":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Venusaur"},
+     ^     | (bad-continuation)
+C: 10, 0: Line too long (125/100) (line-too-long)
+C: 10, 0: Exactly one space required after comma
+		   "Ivysaur":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Venusaur"},
+                          ^ (bad-whitespace)
+C: 10, 0: Exactly one space required after comma
+		   "Ivysaur":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Venusaur"},
+                                             ^ (bad-whitespace)
+C: 10, 0: Exactly one space required after comma
+		   "Ivysaur":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Venusaur"},
+                                                        ^ (bad-whitespace)
+C: 10, 0: Exactly one space required after comma
+		   "Ivysaur":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Venusaur"},
+                                                                   ^ (bad-whitespace)
+C: 10, 0: Exactly one space required after comma
+		   "Ivysaur":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Venusaur"},
+                                                                               ^ (bad-whitespace)
+C: 10, 0: Exactly one space required after comma
+		   "Ivysaur":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Venusaur"},
+                                                                                            ^ (bad-whitespace)
+C: 10, 0: Exactly one space required after comma
+		   "Ivysaur":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Venusaur"},
+                                                                                                     ^ (bad-whitespace)
+C: 11, 0: Wrong continued indentation (add 6 spaces).
+		   "Wartortle":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Blastoise"},
+     ^     | (bad-continuation)
+C: 11, 0: Line too long (128/100) (line-too-long)
+C: 11, 0: Exactly one space required after comma
+		   "Wartortle":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Blastoise"},
+                            ^ (bad-whitespace)
+C: 11, 0: Exactly one space required after comma
+		   "Wartortle":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Blastoise"},
+                                               ^ (bad-whitespace)
+C: 11, 0: Exactly one space required after comma
+		   "Wartortle":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Blastoise"},
+                                                          ^ (bad-whitespace)
+C: 11, 0: Exactly one space required after comma
+		   "Wartortle":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Blastoise"},
+                                                                     ^ (bad-whitespace)
+C: 11, 0: Exactly one space required after comma
+		   "Wartortle":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Blastoise"},
+                                                                                 ^ (bad-whitespace)
+C: 11, 0: Exactly one space required after comma
+		   "Wartortle":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Blastoise"},
+                                                                                              ^ (bad-whitespace)
+C: 11, 0: Exactly one space required after comma
+		   "Wartortle":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Blastoise"},
+                                                                                                       ^ (bad-whitespace)
+C: 12, 0: Wrong continued indentation (add 6 spaces).
+		   "Charmeleon":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Charizard"},
+     ^     | (bad-continuation)
+C: 12, 0: Line too long (129/100) (line-too-long)
+C: 12, 0: Exactly one space required after comma
+		   "Charmeleon":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Charizard"},
+                             ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+		   "Charmeleon":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Charizard"},
+                                                ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+		   "Charmeleon":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Charizard"},
+                                                           ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+		   "Charmeleon":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Charizard"},
+                                                                      ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+		   "Charmeleon":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Charizard"},
+                                                                                  ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+		   "Charmeleon":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Charizard"},
+                                                                                               ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+		   "Charmeleon":{"poder":30,"vida_inicial":110,"vida":110,"defesa":9,"xpatual":0,"xpevol":100,"xp2":20,"proxevol":"Charizard"},
+                                                                                                        ^ (bad-whitespace)
+C: 13, 0: Wrong continued indentation (add 6 spaces).
+		   "Venusaur":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+     ^     | (bad-continuation)
+C: 13, 0: Line too long (117/100) (line-too-long)
+C: 13, 0: Exactly one space required after comma
+		   "Venusaur":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+                           ^ (bad-whitespace)
+C: 13, 0: Exactly one space required after comma
+		   "Venusaur":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+                                              ^ (bad-whitespace)
+C: 13, 0: Exactly one space required after comma
+		   "Venusaur":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+                                                         ^ (bad-whitespace)
+C: 13, 0: Exactly one space required after comma
+		   "Venusaur":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+                                                                     ^ (bad-whitespace)
+C: 13, 0: Exactly one space required after comma
+		   "Venusaur":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+                                                                                 ^ (bad-whitespace)
+C: 13, 0: Exactly one space required after comma
+		   "Venusaur":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+                                                                                            ^ (bad-whitespace)
+C: 13, 0: Exactly one space required after comma
+		   "Venusaur":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+                                                                                                     ^ (bad-whitespace)
+C: 14, 0: Wrong continued indentation (add 6 spaces).
+		   "Blastoise":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+     ^     | (bad-continuation)
+C: 14, 0: Line too long (118/100) (line-too-long)
+C: 14, 0: Exactly one space required after comma
+		   "Blastoise":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+                            ^ (bad-whitespace)
+C: 14, 0: Exactly one space required after comma
+		   "Blastoise":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+                                               ^ (bad-whitespace)
+C: 14, 0: Exactly one space required after comma
+		   "Blastoise":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+                                                          ^ (bad-whitespace)
+C: 14, 0: Exactly one space required after comma
+		   "Blastoise":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+                                                                      ^ (bad-whitespace)
+C: 14, 0: Exactly one space required after comma
+		   "Blastoise":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+                                                                                  ^ (bad-whitespace)
+C: 14, 0: Exactly one space required after comma
+		   "Blastoise":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+                                                                                             ^ (bad-whitespace)
+C: 14, 0: Exactly one space required after comma
+		   "Blastoise":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+                                                                                                      ^ (bad-whitespace)
+C: 15, 0: Wrong continued indentation (add 6 spaces).
+		   "Charizard":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+     ^     | (bad-continuation)
+C: 15, 0: Line too long (118/100) (line-too-long)
+C: 15, 0: Exactly one space required after comma
+		   "Charizard":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+                            ^ (bad-whitespace)
+C: 15, 0: Exactly one space required after comma
+		   "Charizard":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+                                               ^ (bad-whitespace)
+C: 15, 0: Exactly one space required after comma
+		   "Charizard":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+                                                          ^ (bad-whitespace)
+C: 15, 0: Exactly one space required after comma
+		   "Charizard":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+                                                                      ^ (bad-whitespace)
+C: 15, 0: Exactly one space required after comma
+		   "Charizard":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+                                                                                  ^ (bad-whitespace)
+C: 15, 0: Exactly one space required after comma
+		   "Charizard":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+                                                                                             ^ (bad-whitespace)
+C: 15, 0: Exactly one space required after comma
+		   "Charizard":{"poder":35,"vida_inicial":120,"vida":120,"defesa":10,"xpatual":0,"xpevol":0,"xp2":30,"proxevol":""},
+                                                                                                      ^ (bad-whitespace)
+C: 16, 0: Wrong continued indentation (add 6 spaces).
+		   "Abra":{"poder":20,"vida_inicial":80,"vida":80,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+     ^     | (bad-continuation)
+C: 16, 0: Line too long (110/100) (line-too-long)
+C: 16, 0: Exactly one space required after comma
+		   "Abra":{"poder":20,"vida_inicial":80,"vida":80,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                       ^ (bad-whitespace)
+C: 16, 0: Exactly one space required after comma
+		   "Abra":{"poder":20,"vida_inicial":80,"vida":80,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                         ^ (bad-whitespace)
+C: 16, 0: Exactly one space required after comma
+		   "Abra":{"poder":20,"vida_inicial":80,"vida":80,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                                   ^ (bad-whitespace)
+C: 16, 0: Exactly one space required after comma
+		   "Abra":{"poder":20,"vida_inicial":80,"vida":80,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                                              ^ (bad-whitespace)
+C: 16, 0: Exactly one space required after comma
+		   "Abra":{"poder":20,"vida_inicial":80,"vida":80,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                                                          ^ (bad-whitespace)
+C: 16, 0: Exactly one space required after comma
+		   "Abra":{"poder":20,"vida_inicial":80,"vida":80,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                                                                     ^ (bad-whitespace)
+C: 16, 0: Exactly one space required after comma
+		   "Abra":{"poder":20,"vida_inicial":80,"vida":80,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                                                                              ^ (bad-whitespace)
+C: 17, 0: Wrong continued indentation (add 6 spaces).
+		   "Tentacool":{"poder":15,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+     ^     | (bad-continuation)
+C: 17, 0: Line too long (115/100) (line-too-long)
+C: 17, 0: Exactly one space required after comma
+		   "Tentacool":{"poder":15,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                            ^ (bad-whitespace)
+C: 17, 0: Exactly one space required after comma
+		   "Tentacool":{"poder":15,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                              ^ (bad-whitespace)
+C: 17, 0: Exactly one space required after comma
+		   "Tentacool":{"poder":15,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                                        ^ (bad-whitespace)
+C: 17, 0: Exactly one space required after comma
+		   "Tentacool":{"poder":15,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                                                   ^ (bad-whitespace)
+C: 17, 0: Exactly one space required after comma
+		   "Tentacool":{"poder":15,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                                                               ^ (bad-whitespace)
+C: 17, 0: Exactly one space required after comma
+		   "Tentacool":{"poder":15,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                                                                          ^ (bad-whitespace)
+C: 17, 0: Exactly one space required after comma
+		   "Tentacool":{"poder":15,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                                                                                   ^ (bad-whitespace)
+C: 18, 0: Wrong continued indentation (add 6 spaces).
+		   "Geodude":{"poder":20,"vida_inicial":70,"vida":70,"defesa":6,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+     ^     | (bad-continuation)
+C: 18, 0: Line too long (113/100) (line-too-long)
+C: 18, 0: Exactly one space required after comma
+		   "Geodude":{"poder":20,"vida_inicial":70,"vida":70,"defesa":6,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                          ^ (bad-whitespace)
+C: 18, 0: Exactly one space required after comma
+		   "Geodude":{"poder":20,"vida_inicial":70,"vida":70,"defesa":6,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                            ^ (bad-whitespace)
+C: 18, 0: Exactly one space required after comma
+		   "Geodude":{"poder":20,"vida_inicial":70,"vida":70,"defesa":6,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                                      ^ (bad-whitespace)
+C: 18, 0: Exactly one space required after comma
+		   "Geodude":{"poder":20,"vida_inicial":70,"vida":70,"defesa":6,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                                                 ^ (bad-whitespace)
+C: 18, 0: Exactly one space required after comma
+		   "Geodude":{"poder":20,"vida_inicial":70,"vida":70,"defesa":6,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                                                             ^ (bad-whitespace)
+C: 18, 0: Exactly one space required after comma
+		   "Geodude":{"poder":20,"vida_inicial":70,"vida":70,"defesa":6,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                                                                        ^ (bad-whitespace)
+C: 18, 0: Exactly one space required after comma
+		   "Geodude":{"poder":20,"vida_inicial":70,"vida":70,"defesa":6,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                                                                                 ^ (bad-whitespace)
+C: 19, 0: Wrong continued indentation (add 6 spaces).
+		   "Onix":{"poder":15,"vida_inicial":80,"vida":80,"defesa":9,"xpatual":0,"xpevol":0,"xp2":25,"proxevol":""},
+     ^     | (bad-continuation)
+C: 19, 0: Line too long (110/100) (line-too-long)
+C: 19, 0: Exactly one space required after comma
+		   "Onix":{"poder":15,"vida_inicial":80,"vida":80,"defesa":9,"xpatual":0,"xpevol":0,"xp2":25,"proxevol":""},
+                       ^ (bad-whitespace)
+C: 19, 0: Exactly one space required after comma
+		   "Onix":{"poder":15,"vida_inicial":80,"vida":80,"defesa":9,"xpatual":0,"xpevol":0,"xp2":25,"proxevol":""},
+                                         ^ (bad-whitespace)
+C: 19, 0: Exactly one space required after comma
+		   "Onix":{"poder":15,"vida_inicial":80,"vida":80,"defesa":9,"xpatual":0,"xpevol":0,"xp2":25,"proxevol":""},
+                                                   ^ (bad-whitespace)
+C: 19, 0: Exactly one space required after comma
+		   "Onix":{"poder":15,"vida_inicial":80,"vida":80,"defesa":9,"xpatual":0,"xpevol":0,"xp2":25,"proxevol":""},
+                                                              ^ (bad-whitespace)
+C: 19, 0: Exactly one space required after comma
+		   "Onix":{"poder":15,"vida_inicial":80,"vida":80,"defesa":9,"xpatual":0,"xpevol":0,"xp2":25,"proxevol":""},
+                                                                          ^ (bad-whitespace)
+C: 19, 0: Exactly one space required after comma
+		   "Onix":{"poder":15,"vida_inicial":80,"vida":80,"defesa":9,"xpatual":0,"xpevol":0,"xp2":25,"proxevol":""},
+                                                                                     ^ (bad-whitespace)
+C: 19, 0: Exactly one space required after comma
+		   "Onix":{"poder":15,"vida_inicial":80,"vida":80,"defesa":9,"xpatual":0,"xpevol":0,"xp2":25,"proxevol":""},
+                                                                                              ^ (bad-whitespace)
+C: 20, 0: Wrong continued indentation (add 6 spaces).
+		   "Horsea":{"poder":15,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+     ^     | (bad-continuation)
+C: 20, 0: Line too long (112/100) (line-too-long)
+C: 20, 0: Exactly one space required after comma
+		   "Horsea":{"poder":15,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                         ^ (bad-whitespace)
+C: 20, 0: Exactly one space required after comma
+		   "Horsea":{"poder":15,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                           ^ (bad-whitespace)
+C: 20, 0: Exactly one space required after comma
+		   "Horsea":{"poder":15,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                                     ^ (bad-whitespace)
+C: 20, 0: Exactly one space required after comma
+		   "Horsea":{"poder":15,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                                                ^ (bad-whitespace)
+C: 20, 0: Exactly one space required after comma
+		   "Horsea":{"poder":15,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                                                            ^ (bad-whitespace)
+C: 20, 0: Exactly one space required after comma
+		   "Horsea":{"poder":15,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                                                                       ^ (bad-whitespace)
+C: 20, 0: Exactly one space required after comma
+		   "Horsea":{"poder":15,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                                                                                ^ (bad-whitespace)
+C: 21, 0: Wrong continued indentation (add 6 spaces).
+		   "Zubat":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+     ^     | (bad-continuation)
+C: 21, 0: Line too long (111/100) (line-too-long)
+C: 21, 0: Exactly one space required after comma
+		   "Zubat":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                        ^ (bad-whitespace)
+C: 21, 0: Exactly one space required after comma
+		   "Zubat":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                          ^ (bad-whitespace)
+C: 21, 0: Exactly one space required after comma
+		   "Zubat":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                                    ^ (bad-whitespace)
+C: 21, 0: Exactly one space required after comma
+		   "Zubat":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                                               ^ (bad-whitespace)
+C: 21, 0: Exactly one space required after comma
+		   "Zubat":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                                                           ^ (bad-whitespace)
+C: 21, 0: Exactly one space required after comma
+		   "Zubat":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                                                                      ^ (bad-whitespace)
+C: 21, 0: Exactly one space required after comma
+		   "Zubat":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                                                                               ^ (bad-whitespace)
+C: 22, 0: Wrong continued indentation (add 6 spaces).
+		   "Caterpie":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+     ^     | (bad-continuation)
+C: 22, 0: Line too long (114/100) (line-too-long)
+C: 22, 0: Exactly one space required after comma
+		   "Caterpie":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                           ^ (bad-whitespace)
+C: 22, 0: Exactly one space required after comma
+		   "Caterpie":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                             ^ (bad-whitespace)
+C: 22, 0: Exactly one space required after comma
+		   "Caterpie":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                                       ^ (bad-whitespace)
+C: 22, 0: Exactly one space required after comma
+		   "Caterpie":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                                                  ^ (bad-whitespace)
+C: 22, 0: Exactly one space required after comma
+		   "Caterpie":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                                                              ^ (bad-whitespace)
+C: 22, 0: Exactly one space required after comma
+		   "Caterpie":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                                                                         ^ (bad-whitespace)
+C: 22, 0: Exactly one space required after comma
+		   "Caterpie":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                                                                                  ^ (bad-whitespace)
+C: 23, 0: Wrong continued indentation (add 6 spaces).
+		   "Weedle":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+     ^     | (bad-continuation)
+C: 23, 0: Line too long (112/100) (line-too-long)
+C: 23, 0: Exactly one space required after comma
+		   "Weedle":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                         ^ (bad-whitespace)
+C: 23, 0: Exactly one space required after comma
+		   "Weedle":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                           ^ (bad-whitespace)
+C: 23, 0: Exactly one space required after comma
+		   "Weedle":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                                     ^ (bad-whitespace)
+C: 23, 0: Exactly one space required after comma
+		   "Weedle":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                                                ^ (bad-whitespace)
+C: 23, 0: Exactly one space required after comma
+		   "Weedle":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                                                            ^ (bad-whitespace)
+C: 23, 0: Exactly one space required after comma
+		   "Weedle":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                                                                       ^ (bad-whitespace)
+C: 23, 0: Exactly one space required after comma
+		   "Weedle":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                                                                                ^ (bad-whitespace)
+C: 24, 0: Wrong continued indentation (add 6 spaces).
+		   "Pidgey":{"poder":20,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+     ^     | (bad-continuation)
+C: 24, 0: Line too long (112/100) (line-too-long)
+C: 24, 0: Exactly one space required after comma
+		   "Pidgey":{"poder":20,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                         ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+		   "Pidgey":{"poder":20,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                           ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+		   "Pidgey":{"poder":20,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                                     ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+		   "Pidgey":{"poder":20,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                                                ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+		   "Pidgey":{"poder":20,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                                                            ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+		   "Pidgey":{"poder":20,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                                                                       ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+		   "Pidgey":{"poder":20,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                                                                                ^ (bad-whitespace)
+C: 25, 0: Wrong continued indentation (add 6 spaces).
+		   "Ratata":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+     ^     | (bad-continuation)
+C: 25, 0: Line too long (112/100) (line-too-long)
+C: 25, 0: Exactly one space required after comma
+		   "Ratata":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                         ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+		   "Ratata":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                           ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+		   "Ratata":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                                     ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+		   "Ratata":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                                                ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+		   "Ratata":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                                                            ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+		   "Ratata":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                                                                       ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+		   "Ratata":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},
+                                                                                                ^ (bad-whitespace)
+C: 26, 0: Wrong continued indentation (add 6 spaces).
+		   "Ekans":{"poder":15,"vida_inicial":65,"vida":65,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+     ^     | (bad-continuation)
+C: 26, 0: Line too long (111/100) (line-too-long)
+C: 26, 0: Exactly one space required after comma
+		   "Ekans":{"poder":15,"vida_inicial":65,"vida":65,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                        ^ (bad-whitespace)
+C: 26, 0: Exactly one space required after comma
+		   "Ekans":{"poder":15,"vida_inicial":65,"vida":65,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                          ^ (bad-whitespace)
+C: 26, 0: Exactly one space required after comma
+		   "Ekans":{"poder":15,"vida_inicial":65,"vida":65,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                                    ^ (bad-whitespace)
+C: 26, 0: Exactly one space required after comma
+		   "Ekans":{"poder":15,"vida_inicial":65,"vida":65,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                                               ^ (bad-whitespace)
+C: 26, 0: Exactly one space required after comma
+		   "Ekans":{"poder":15,"vida_inicial":65,"vida":65,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                                                           ^ (bad-whitespace)
+C: 26, 0: Exactly one space required after comma
+		   "Ekans":{"poder":15,"vida_inicial":65,"vida":65,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                                                                      ^ (bad-whitespace)
+C: 26, 0: Exactly one space required after comma
+		   "Ekans":{"poder":15,"vida_inicial":65,"vida":65,"defesa":5,"xpatual":0,"xpevol":0,"xp2":15,"proxevol":""},
+                                                                                               ^ (bad-whitespace)
+C: 27, 0: Wrong continued indentation (add 3 spaces).
+	       "Spearow":{"poder":25,"vida_inicial":55,"vida":55,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},	
+        ^  | (bad-continuation)
+C: 27, 0: Trailing whitespace (trailing-whitespace)
+C: 27, 0: Line too long (116/100) (line-too-long)
+C: 27, 0: Exactly one space required after comma
+	       "Spearow":{"poder":25,"vida_inicial":55,"vida":55,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},	
+                             ^ (bad-whitespace)
+C: 27, 0: Exactly one space required after comma
+	       "Spearow":{"poder":25,"vida_inicial":55,"vida":55,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},	
+                                               ^ (bad-whitespace)
+C: 27, 0: Exactly one space required after comma
+	       "Spearow":{"poder":25,"vida_inicial":55,"vida":55,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},	
+                                                         ^ (bad-whitespace)
+C: 27, 0: Exactly one space required after comma
+	       "Spearow":{"poder":25,"vida_inicial":55,"vida":55,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},	
+                                                                    ^ (bad-whitespace)
+C: 27, 0: Exactly one space required after comma
+	       "Spearow":{"poder":25,"vida_inicial":55,"vida":55,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},	
+                                                                                ^ (bad-whitespace)
+C: 27, 0: Exactly one space required after comma
+	       "Spearow":{"poder":25,"vida_inicial":55,"vida":55,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},	
+                                                                                           ^ (bad-whitespace)
+C: 27, 0: Exactly one space required after comma
+	       "Spearow":{"poder":25,"vida_inicial":55,"vida":55,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""},	
+                                                                                                    ^ (bad-whitespace)
+C: 28, 0: Wrong continued indentation (add 3 spaces).
+	       "Nidoran":{"poder":20,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":20,"proxevol":""},
+        ^  | (bad-continuation)
+C: 28, 0: Line too long (116/100) (line-too-long)
+C: 28, 0: Exactly one space required after comma
+	       "Nidoran":{"poder":20,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":20,"proxevol":""},
+                             ^ (bad-whitespace)
+C: 28, 0: Exactly one space required after comma
+	       "Nidoran":{"poder":20,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":20,"proxevol":""},
+                                               ^ (bad-whitespace)
+C: 28, 0: Exactly one space required after comma
+	       "Nidoran":{"poder":20,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":20,"proxevol":""},
+                                                         ^ (bad-whitespace)
+C: 28, 0: Exactly one space required after comma
+	       "Nidoran":{"poder":20,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":20,"proxevol":""},
+                                                                    ^ (bad-whitespace)
+C: 28, 0: Exactly one space required after comma
+	       "Nidoran":{"poder":20,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":20,"proxevol":""},
+                                                                                ^ (bad-whitespace)
+C: 28, 0: Exactly one space required after comma
+	       "Nidoran":{"poder":20,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":20,"proxevol":""},
+                                                                                           ^ (bad-whitespace)
+C: 28, 0: Exactly one space required after comma
+	       "Nidoran":{"poder":20,"vida_inicial":60,"vida":60,"defesa":5,"xpatual":0,"xpevol":0,"xp2":20,"proxevol":""},
+                                                                                                    ^ (bad-whitespace)
+C: 29, 0: Wrong continued indentation (add 6 spaces).
+		   "Vulpix":{"poder":15,"vida_inicial":60,"vida":60,"defesa":7,"xpatual":0,"xpevol":0,"xp2":20,"proxevol":""},
+     ^     | (bad-continuation)
+C: 29, 0: Line too long (112/100) (line-too-long)
+C: 29, 0: Exactly one space required after comma
+		   "Vulpix":{"poder":15,"vida_inicial":60,"vida":60,"defesa":7,"xpatual":0,"xpevol":0,"xp2":20,"proxevol":""},
+                         ^ (bad-whitespace)
+C: 29, 0: Exactly one space required after comma
+		   "Vulpix":{"poder":15,"vida_inicial":60,"vida":60,"defesa":7,"xpatual":0,"xpevol":0,"xp2":20,"proxevol":""},
+                                           ^ (bad-whitespace)
+C: 29, 0: Exactly one space required after comma
+		   "Vulpix":{"poder":15,"vida_inicial":60,"vida":60,"defesa":7,"xpatual":0,"xpevol":0,"xp2":20,"proxevol":""},
+                                                     ^ (bad-whitespace)
+C: 29, 0: Exactly one space required after comma
+		   "Vulpix":{"poder":15,"vida_inicial":60,"vida":60,"defesa":7,"xpatual":0,"xpevol":0,"xp2":20,"proxevol":""},
+                                                                ^ (bad-whitespace)
+C: 29, 0: Exactly one space required after comma
+		   "Vulpix":{"poder":15,"vida_inicial":60,"vida":60,"defesa":7,"xpatual":0,"xpevol":0,"xp2":20,"proxevol":""},
+                                                                            ^ (bad-whitespace)
+C: 29, 0: Exactly one space required after comma
+		   "Vulpix":{"poder":15,"vida_inicial":60,"vida":60,"defesa":7,"xpatual":0,"xpevol":0,"xp2":20,"proxevol":""},
+                                                                                       ^ (bad-whitespace)
+C: 29, 0: Exactly one space required after comma
+		   "Vulpix":{"poder":15,"vida_inicial":60,"vida":60,"defesa":7,"xpatual":0,"xpevol":0,"xp2":20,"proxevol":""},
+                                                                                                ^ (bad-whitespace)
+C: 30, 0: Wrong continued indentation (add 6 spaces).
+		   "Oddish":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""}}
+     ^     | (bad-continuation)
+C: 30, 0: Line too long (112/100) (line-too-long)
+C: 30, 0: Exactly one space required after comma
+		   "Oddish":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""}}
+                         ^ (bad-whitespace)
+C: 30, 0: Exactly one space required after comma
+		   "Oddish":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""}}
+                                           ^ (bad-whitespace)
+C: 30, 0: Exactly one space required after comma
+		   "Oddish":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""}}
+                                                     ^ (bad-whitespace)
+C: 30, 0: Exactly one space required after comma
+		   "Oddish":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""}}
+                                                                ^ (bad-whitespace)
+C: 30, 0: Exactly one space required after comma
+		   "Oddish":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""}}
+                                                                            ^ (bad-whitespace)
+C: 30, 0: Exactly one space required after comma
+		   "Oddish":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""}}
+                                                                                       ^ (bad-whitespace)
+C: 30, 0: Exactly one space required after comma
+		   "Oddish":{"poder":15,"vida_inicial":50,"vida":50,"defesa":5,"xpatual":0,"xpevol":0,"xp2":10,"proxevol":""}}
+                                                                                                ^ (bad-whitespace)
+C: 31, 0: Trailing whitespace (trailing-whitespace)
+W: 34, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 40, 0: Exactly one space required after comma
+probabilidadefuga1 = [0,1,2,3,4,5,6,7,8,9,10]
+                       ^ (bad-whitespace)
+C: 40, 0: Exactly one space required after comma
+probabilidadefuga1 = [0,1,2,3,4,5,6,7,8,9,10]
+                         ^ (bad-whitespace)
+C: 40, 0: Exactly one space required after comma
+probabilidadefuga1 = [0,1,2,3,4,5,6,7,8,9,10]
+                           ^ (bad-whitespace)
+C: 40, 0: Exactly one space required after comma
+probabilidadefuga1 = [0,1,2,3,4,5,6,7,8,9,10]
+                             ^ (bad-whitespace)
+C: 40, 0: Exactly one space required after comma
+probabilidadefuga1 = [0,1,2,3,4,5,6,7,8,9,10]
+                               ^ (bad-whitespace)
+C: 40, 0: Exactly one space required after comma
+probabilidadefuga1 = [0,1,2,3,4,5,6,7,8,9,10]
+                                 ^ (bad-whitespace)
+C: 40, 0: Exactly one space required after comma
+probabilidadefuga1 = [0,1,2,3,4,5,6,7,8,9,10]
+                                   ^ (bad-whitespace)
+C: 40, 0: Exactly one space required after comma
+probabilidadefuga1 = [0,1,2,3,4,5,6,7,8,9,10]
+                                     ^ (bad-whitespace)
+C: 40, 0: Exactly one space required after comma
+probabilidadefuga1 = [0,1,2,3,4,5,6,7,8,9,10]
+                                       ^ (bad-whitespace)
+C: 40, 0: Exactly one space required after comma
+probabilidadefuga1 = [0,1,2,3,4,5,6,7,8,9,10]
+                                         ^ (bad-whitespace)
+C: 42, 0: Line too long (121/100) (line-too-long)
+W: 44, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 44, 0: Exactly one space required around assignment
+		lisnum=[1.5,
+        ^ (bad-whitespace)
+C: 45, 0: Wrong continued indentation (add 6 spaces).
+				1.4,1.4,
+    ^     | (bad-continuation)
+C: 45, 0: Exactly one space required after comma
+				1.4,1.4,
+       ^ (bad-whitespace)
+C: 46, 0: Wrong continued indentation (add 6 spaces).
+				1.3,1.3,1.3,
+    ^     | (bad-continuation)
+C: 46, 0: Exactly one space required after comma
+				1.3,1.3,1.3,
+       ^ (bad-whitespace)
+C: 46, 0: Exactly one space required after comma
+				1.3,1.3,1.3,
+           ^ (bad-whitespace)
+C: 47, 0: Wrong continued indentation (add 6 spaces).
+				1.2,1.2,1.2,1.2,
+    ^     | (bad-continuation)
+C: 47, 0: Exactly one space required after comma
+				1.2,1.2,1.2,1.2,
+       ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+				1.2,1.2,1.2,1.2,
+           ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+				1.2,1.2,1.2,1.2,
+               ^ (bad-whitespace)
+C: 48, 0: Wrong continued indentation (add 6 spaces).
+				1.1,1.1,1.1,1.1,1.1,
+    ^     | (bad-continuation)
+C: 48, 0: Exactly one space required after comma
+				1.1,1.1,1.1,1.1,1.1,
+       ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+				1.1,1.1,1.1,1.1,1.1,
+           ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+				1.1,1.1,1.1,1.1,1.1,
+               ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+				1.1,1.1,1.1,1.1,1.1,
+                   ^ (bad-whitespace)
+C: 49, 0: Wrong continued indentation (add 6 spaces).
+				1.0,1.0,1.0,1.0,1.0,1.0,
+    ^     | (bad-continuation)
+C: 49, 0: Exactly one space required after comma
+				1.0,1.0,1.0,1.0,1.0,1.0,
+       ^ (bad-whitespace)
+C: 49, 0: Exactly one space required after comma
+				1.0,1.0,1.0,1.0,1.0,1.0,
+           ^ (bad-whitespace)
+C: 49, 0: Exactly one space required after comma
+				1.0,1.0,1.0,1.0,1.0,1.0,
+               ^ (bad-whitespace)
+C: 49, 0: Exactly one space required after comma
+				1.0,1.0,1.0,1.0,1.0,1.0,
+                   ^ (bad-whitespace)
+C: 49, 0: Exactly one space required after comma
+				1.0,1.0,1.0,1.0,1.0,1.0,
+                       ^ (bad-whitespace)
+C: 50, 0: Wrong continued indentation (add 6 spaces).
+				0.9,0.9,0.9,0.9,0.9,
+    ^     | (bad-continuation)
+C: 50, 0: Exactly one space required after comma
+				0.9,0.9,0.9,0.9,0.9,
+       ^ (bad-whitespace)
+C: 50, 0: Exactly one space required after comma
+				0.9,0.9,0.9,0.9,0.9,
+           ^ (bad-whitespace)
+C: 50, 0: Exactly one space required after comma
+				0.9,0.9,0.9,0.9,0.9,
+               ^ (bad-whitespace)
+C: 50, 0: Exactly one space required after comma
+				0.9,0.9,0.9,0.9,0.9,
+                   ^ (bad-whitespace)
+C: 51, 0: Wrong continued indentation (add 6 spaces).
+				0.8,0.8,0.8,0.8,
+    ^     | (bad-continuation)
+C: 51, 0: Exactly one space required after comma
+				0.8,0.8,0.8,0.8,
+       ^ (bad-whitespace)
+C: 51, 0: Exactly one space required after comma
+				0.8,0.8,0.8,0.8,
+           ^ (bad-whitespace)
+C: 51, 0: Exactly one space required after comma
+				0.8,0.8,0.8,0.8,
+               ^ (bad-whitespace)
+C: 52, 0: Wrong continued indentation (add 6 spaces).
+				0.7,0.7,0.7,
+    ^     | (bad-continuation)
+C: 52, 0: Exactly one space required after comma
+				0.7,0.7,0.7,
+       ^ (bad-whitespace)
+C: 52, 0: Exactly one space required after comma
+				0.7,0.7,0.7,
+           ^ (bad-whitespace)
+C: 53, 0: Wrong continued indentation (add 6 spaces).
+				0.6,0.6,
+    ^     | (bad-continuation)
+C: 53, 0: Exactly one space required after comma
+				0.6,0.6,
+       ^ (bad-whitespace)
+C: 54, 0: Wrong continued indentation (add 6 spaces).
+				0.5]
+    ^     | (bad-continuation)
+W: 55, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 55, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C: 58, 0: Exactly one space required after comma
+def ataca(atacante,defensor):
+                  ^ (bad-whitespace)
+W: 59, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 60, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 61, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 62, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 62, 0: Exactly one space required around assignment
+			Insperdex[defensor]["vida"]=Insperdex[defensor]["vida"]-((ataque-defesa))
+                              ^ (bad-whitespace)
+W: 63, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 64, 0: Trailing whitespace (trailing-whitespace)
+W: 64, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 68, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 68, 0: No space allowed before :
+	if Insperdex[inspermon]["xpevol"] > 0 :
+                                       ^ (bad-whitespace)
+W: 69, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 70, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 71, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 71, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W: 72, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 73, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 74, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 74, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W: 75, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 75, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 76, 0: Trailing whitespace (trailing-whitespace)
+W: 76, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 77, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 78, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 78, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 79, 0: Trailing whitespace (trailing-whitespace)
+W: 80, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 80, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W: 81, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 81, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+W: 82, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 86, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 87, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 88, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 89, 0: Trailing whitespace (trailing-whitespace)
+W: 89, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 90, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 91, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 93, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 95, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 96, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 97, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:100, 0: Trailing whitespace (trailing-whitespace)
+C:101, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:106, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:107, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:108, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:109, 0: Wrong hanging indentation (add 16 spaces).
+				"insperdex": 
+    ^               | (bad-continuation)
+C:109, 0: Trailing whitespace (trailing-whitespace)
+C:110, 0: Wrong hanging indentation in dict value.
+						{"inspermons": []},
+      ^             |   | (bad-continuation)
+C:111, 0: Wrong hanging indentation (add 16 spaces).
+				"seuinspermon":
+    ^               | (bad-continuation)
+C:112, 0: Wrong hanging indentation in dict value.
+						{"nome": "", "vida": 0, "xpatual": 0}
+      ^             |   | (bad-continuation)
+C:113, 0: Wrong hanging indentation.
+				}
+    ^           |   | (bad-continuation)
+C:114, 0: Trailing whitespace (trailing-whitespace)
+W:116, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:117, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:118, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:118, 0: Exactly one space required around assignment
+			usuario=str(input("Escolha seu Inspermon: Bulbasaur(1), Charmander(2), Squirtle(3)"))
+          ^ (bad-whitespace)
+W:119, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:120, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:121, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:122, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:123, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:124, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:125, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:126, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:127, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:128, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:128, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:129, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:130, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:131, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:131, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:132, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:133, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:134, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:135, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:136, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:137, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:138, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:139, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:140, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:141, 0: Line too long (182/100) (line-too-long)
+W:141, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:141, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:141, 0: Exactly one space required after comma
+		print("Seu Inspermon é o {} e ele está com {}/{} de vida e {} de XP!".format(usuario,Insperdex[usuario]["vida"],Insperdex[usuario]["vida_inicial"],Insperdex[usuario]["xpatual"]))
+                                                                                        ^ (bad-whitespace)
+C:141, 0: Exactly one space required after comma
+		print("Seu Inspermon é o {} e ele está com {}/{} de vida e {} de XP!".format(usuario,Insperdex[usuario]["vida"],Insperdex[usuario]["vida_inicial"],Insperdex[usuario]["xpatual"]))
+                                                                                                                   ^ (bad-whitespace)
+C:141, 0: Exactly one space required after comma
+		print("Seu Inspermon é o {} e ele está com {}/{} de vida e {} de XP!".format(usuario,Insperdex[usuario]["vida"],Insperdex[usuario]["vida_inicial"],Insperdex[usuario]["xpatual"]))
+                                                                                                                                                      ^ (bad-whitespace)
+W:142, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:144, 0: Trailing whitespace (trailing-whitespace)
+C:144, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:146, 0: Trailing whitespace (trailing-whitespace)
+W:149, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:149, 0: Exactly one space required around assignment
+	x=random.choice(list(Insperdex.keys()))
+  ^ (bad-whitespace)
+W:150, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:150, 0: Exactly one space required around assignment
+	y=random.choice(list(probabilidadefuga1))
+  ^ (bad-whitespace)
+W:151, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:152, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:153, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:154, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:154, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:155, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:156, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:157, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:158, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:159, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:160, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:161, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:162, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:163, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:163, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:164, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:165, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:166, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:167, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:167, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:168, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:169, 0: Line too long (110/100) (line-too-long)
+W:169, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:170, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:170, 0: Exactly one space required after comparison
+		if d =="insperdex" or d =="2":
+       ^^ (bad-whitespace)
+C:170, 0: Exactly one space required after comparison
+		if d =="insperdex" or d =="2":
+                          ^^ (bad-whitespace)
+W:171, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:172, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:172, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:173, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:174, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:174, 0: Exactly one space required after comparison
+		if d =="capturados" or d =="1":
+       ^^ (bad-whitespace)
+C:174, 0: Exactly one space required after comparison
+		if d =="capturados" or d =="1":
+                           ^^ (bad-whitespace)
+W:175, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:176, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:176, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:177, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:178, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:178, 0: Exactly one space required after comparison
+	if a =="restaurar":
+      ^^ (bad-whitespace)
+W:179, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:180, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:180, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:181, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:182, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:182, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:183, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:184, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:184, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:185, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:186, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:186, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:187, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:187, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:188, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:189, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:189, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:190, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:191, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:191, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:192, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:193, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:194, 0: Trailing whitespace (trailing-whitespace)
+C:196, 0: Trailing whitespace (trailing-whitespace)
+C:197, 0: Trailing whitespace (trailing-whitespace)
+W:198, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:198, 0: Exactly one space required before assignment
+		b= input("Deseja batalhar ou fugir?")
+   ^ (bad-whitespace)
+W:199, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:199, 0: Exactly one space required after comparison
+		if b =="fugir":
+       ^^ (bad-whitespace)
+W:200, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:201, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:201, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:202, 0: Trailing whitespace (trailing-whitespace)
+W:203, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:204, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:204, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:205, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:205, 0: Exactly one space required around assignment
+				b="batalhar"
+     ^ (bad-whitespace)
+C:206, 0: Trailing whitespace (trailing-whitespace)
+C:207, 0: Trailing whitespace (trailing-whitespace)
+W:208, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:209, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:209, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:210, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:211, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:211, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:212, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:212, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:213, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:213, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:214, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:214, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:215, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:215, 0: Exactly one space required before assignment
+			c= input("Voce deseja atacar, tentar capturar o Inspermon ou fugir?")
+    ^ (bad-whitespace)
+W:216, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:217, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:218, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:218, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:219, 0: Trailing whitespace (trailing-whitespace)
+W:220, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:221, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:221, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:222, 0: Trailing whitespace (trailing-whitespace)
+W:222, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:222, 0: Exactly one space required around assignment
+					c="atacar"	
+      ^ (bad-whitespace)
+W:224, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:225, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:225, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+W:226, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:226, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:227, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:228, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:229, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:229, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:230, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:231, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:231, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:232, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:233, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:233, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:234, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:235, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:235, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:236, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:236, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+W:237, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:238, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:239, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:239, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:240, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:241, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:241, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:242, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:244, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:245, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:245, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:246, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:251, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:263, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:264, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:264, 0: Exactly one space required around comparison
+				while Insperdex[x]["vida"]>0 and Insperdex[usuario]["vida"]>0:
+                              ^ (bad-whitespace)
+C:264, 0: Exactly one space required around comparison
+				while Insperdex[x]["vida"]>0 and Insperdex[usuario]["vida"]>0:
+                                                               ^ (bad-whitespace)
+C:265, 0: Trailing whitespace (trailing-whitespace)
+W:266, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:266, 0: Exactly one space required after comma
+					ataca(usuario,x)
+                  ^ (bad-whitespace)
+C:267, 0: Trailing whitespace (trailing-whitespace)
+W:267, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:267, 0: Exactly one space required after comma
+					ataca(x,usuario)			
+            ^ (bad-whitespace)
+W:269, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:269, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:270, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:270, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:271, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:272, 0: Trailing whitespace (trailing-whitespace)
+W:273, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:273, 0: Exactly one space required around comparison
+					if Insperdex[x]["vida"]<=0:
+                            ^^ (bad-whitespace)
+W:274, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:274, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:275, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:275, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:276, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:276, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:277, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:278, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:278, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:279, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:280, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:281, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:283, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:283, 0: Exactly one space required around comparison
+					elif Insperdex[usuario]["vida"]<=0:
+                                    ^^ (bad-whitespace)
+W:284, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:284, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:285, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:286, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:286, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:287, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:288, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:289, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:289, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:290, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:291, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:291, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:292, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:293, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:293, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:294, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:295, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:295, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:296, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:297, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:298, 0: Trailing newlines (trailing-newlines)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Invalid constant name "Insperdex" (invalid-name)
+C:  6, 0: Invalid constant name "Insperdex" (invalid-name)
+C: 32, 0: Invalid constant name "lista_de_vidas" (invalid-name)
+C: 36, 0: Invalid constant name "Computador" (invalid-name)
+C: 37, 0: Invalid constant name "Capturados" (invalid-name)
+C: 40, 0: Invalid constant name "probabilidadefuga1" (invalid-name)
+C: 43, 0: Missing function docstring (missing-docstring)
+C: 58, 0: Missing function docstring (missing-docstring)
+W: 72, 7: Redefining name 'i' from outer scope (line 33) (redefined-outer-name)
+C: 67, 0: Missing function docstring (missing-docstring)
+W: 72, 7: Unused variable 'i' (unused-variable)
+C: 85, 0: Missing function docstring (missing-docstring)
+C: 89, 1: Invalid variable name "Pa" (invalid-name)
+C: 90, 1: Invalid variable name "Pb" (invalid-name)
+C: 91, 1: Invalid variable name "B" (invalid-name)
+C: 93, 1: Invalid variable name "A" (invalid-name)
+C:106, 1: Invalid constant name "jogo" (invalid-name)
+C:108, 2: Invalid constant name "data" (invalid-name)
+C:118, 3: Invalid constant name "usuario" (invalid-name)
+C:120, 4: Invalid constant name "usuario" (invalid-name)
+C:122, 4: Invalid constant name "usuario" (invalid-name)
+C:124, 4: Invalid constant name "usuario" (invalid-name)
+C:135, 3: Invalid constant name "data" (invalid-name)
+C:136, 2: Invalid constant name "Computador" (invalid-name)
+C:137, 2: Invalid constant name "Capturados" (invalid-name)
+C:138, 2: Invalid constant name "usuario" (invalid-name)
+C:149, 1: Invalid constant name "x" (invalid-name)
+C:150, 1: Invalid constant name "y" (invalid-name)
+C:152, 1: Invalid constant name "a" (invalid-name)
+C:169, 2: Invalid constant name "d" (invalid-name)
+C:198, 2: Invalid constant name "b" (invalid-name)
+C:205, 4: Invalid constant name "b" (invalid-name)
+C:215, 3: Invalid constant name "c" (invalid-name)
+C:222, 5: Invalid constant name "c" (invalid-name)
+W:260,-1: String statement has no effect (pointless-string-statement)
+C:280, 7: Invalid constant name "usuario" (invalid-name)
+
+
+Report
+======
+201 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |4      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |227    |75.92 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |26     |8.70  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |11     |3.68  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |35     |11.71 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |418    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |216    |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------+------------+
+|message id                 |occurrences |
++===========================+============+
+|bad-whitespace             |238         |
++---------------------------+------------+
+|mixed-indentation          |183         |
++---------------------------+------------+
+|superfluous-parens         |55          |
++---------------------------+------------+
+|bad-continuation           |39          |
++---------------------------+------------+
+|invalid-encoded-data       |30          |
++---------------------------+------------+
+|invalid-name               |29          |
++---------------------------+------------+
+|line-too-long              |28          |
++---------------------------+------------+
+|trailing-whitespace        |23          |
++---------------------------+------------+
+|missing-docstring          |5           |
++---------------------------+------------+
+|unused-variable            |1           |
++---------------------------+------------+
+|trailing-newlines          |1           |
++---------------------------+------------+
+|redefined-outer-name       |1           |
++---------------------------+------------+
+|pointless-string-statement |1           |
++---------------------------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at -21.54/10
+
